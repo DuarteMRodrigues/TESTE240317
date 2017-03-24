@@ -17,6 +17,7 @@ public class Pausa {
 		System.out.print("\n\nInsira 0 para parar a listagem e qualquer valor para continuar...");
 		cont = s.nextLine();
 		
+		//Nao esta a funcionar
 		if(cont == "0")
 			continuar = false;
 		else
